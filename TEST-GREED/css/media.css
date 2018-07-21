@@ -1,0 +1,10 @@
+@media(min-width: 640px){
+  .grid{
+    grid-template-columns: 4fr 2fr;
+    grid-template-areas:
+    "header header"
+    "main-content side-bar-1"
+    "main-content side-bar-2"
+    "footer footer"
+  }
+}
